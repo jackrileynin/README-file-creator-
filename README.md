@@ -1,6 +1,6 @@
-# j 
+# README.md creator  
   ## Description 
-  j
+  allows users to create README files for their applications 
   ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -8,16 +8,16 @@
 - [Test](#test)
 - [License](#license)
   ## Installation
-  j
+  depends 
   ## Usage
-  j
+  idk
   ## Contribution
-  j
+  idk
   ## Test
-  j
+  idk
   ## License
-  This project is licensed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-  [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)
+  This project is licensed under the [GPL 3.0 License](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [GPL 3.0 License](https://www.gnu.org/licenses/gpl-3.0)
   
 

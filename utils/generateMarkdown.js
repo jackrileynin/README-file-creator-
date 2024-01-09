@@ -5,10 +5,10 @@ function renderLicenseBadge(license) {
       'MIT': '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
       'Apache 2.0': '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
       'GPL 3.0': '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)',
-      
+      'None': '',
   };
 
-  return licenseBadges[license] || ''; // Return the badge or an empty string if the license is not found
+  return licenseBadges[license] ; 
 }
 
 // TODO: Create a function that returns the license link
@@ -18,9 +18,10 @@ function renderLicenseLink(license) {
       'MIT': '[MIT License](https://opensource.org/licenses/MIT)',
       'Apache 2.0': '[Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)',
       'GPL 3.0': '[GPL 3.0 License](https://www.gnu.org/licenses/gpl-3.0)',
+      'None': '',
   };
 
-  return licenseLinks[license] || ''; // Return the link or an empty string if the license is not found
+  return licenseLinks[license] ; 
 }
 
 // TODO: Create a function that returns the license section of README
@@ -34,7 +35,7 @@ function renderLicenseSection(license) {
       'None': 'This project is not licensed.',
   };
 
-  return licenseSections[license] || '';
+  return licenseSections[license] ;
 } 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
