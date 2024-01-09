@@ -1,6 +1,6 @@
-# Readme creator    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]
+# README creator    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]
   ## Description 
-  helps users create readmes 
+  helps users create readme files for their projects 
   ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -8,13 +8,13 @@
 - [Test](#test)
 - [License](#license)
   ## Installation
-  refer to instructions here:[instructions]
+  refer to here for info on how to install:[instruction]
   ## Usage
-  refer to info here: [info about project]
+  refer to here for info:[info]
   ## Contribution
-  the guidelines to contribute to our project is: [guideines]
+  to contribute, go here:[contributions]
   ## Test
-  refer to test instructions here:[instructions]
+  instructions 
   ## License
   This project is licensed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)
   
