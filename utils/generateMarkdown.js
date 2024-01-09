@@ -28,9 +28,9 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   const licenseSections = {
-      'MIT': 'This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).',
-      'Apache 2.0': 'This project is licensed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).',
-      'GPL 3.0': 'This project is licensed under the [GPL 3.0 License](https://www.gnu.org/licenses/gpl-3.0)',
+      'MIT': `This project is licensed under the ${renderLicenseLink("MIT")}`,
+      'Apache 2.0': `This project is licensed under the ${renderLicenseLink("Apache 2.0")}`,
+      'GPL 3.0': `This project is licensed under the ${renderLicenseLink("GPL 3.0")}`,
       
       'None': 'This project is not licensed.',
   };
@@ -58,7 +58,7 @@ function generateMarkdown(data) {
   ${data.test}
   ## License
   ${renderLicenseSection(data.license)}
-  ${renderLicenseLink(data.license)}
+  
   ## Questions
   For any questions, please contact me at ${data.email} or visit my GitHub page:
   ${data.github}
