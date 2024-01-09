@@ -2,9 +2,9 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   const licenseBadges = {
-      'MIT': '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
-      'Apache 2.0': '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
-      'GPL 3.0': '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)',
+      'MIT': '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]',
+      'Apache 2.0': '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]',
+      'GPL 3.0': '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]',
       'None': '',
   };
 
@@ -61,12 +61,9 @@ function generateMarkdown(data) {
   
   ## Questions
   For any questions, please contact me at ${data.email} or visit my GitHub page:
-  ${data.github}
-
- 
+  [${data.github}](
   
-
-`;
+  `;
 
 }
 

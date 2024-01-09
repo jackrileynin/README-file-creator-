@@ -1,6 +1,6 @@
-# README.md Creator    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Readme creator    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]
   ## Description 
-  creates readmes
+  helps users create readmes 
   ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -8,20 +8,18 @@
 - [Test](#test)
 - [License](#license)
   ## Installation
-  idk
+  refer to instructions here:[instructions]
   ## Usage
-  idk
+  refer to info here: [info about project]
   ## Contribution
-  idk
+  the guidelines to contribute to our project is: [guideines]
   ## Test
-  idk
+  refer to test instructions here:[instructions]
   ## License
-  This project is licensed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).
-  [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)
+  This project is licensed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)
+  
   ## Questions
   For any questions, please contact me at jackrileynin@gmail.com or visit my GitHub page:
-  jackrileynin
-
- 
+  [jackrileynin](
   
-
+  
